@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Components/Navbar';
+import Page57 from './Pages/Page57';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <Navbar/>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/page57' element={<Page57/>} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
