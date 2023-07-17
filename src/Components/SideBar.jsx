@@ -16,7 +16,7 @@ import '../CSS/SideBar.css'
 const SideBar = () => {
   return (
     <>
-      <aside className='w-1/6 h-auto' style={{background:'#215D4F'}}>
+      <aside className='w-full h-full relative' style={{background:'#215D4F'}}>
         <div className='flex pt-4'>
         <img src={Ellipse} className='relative left-4 h-14 w-14 opacity-60' alt='ellipse'/>
         <img src={Ellipse} className=' relative -left-2 w-14 h-14 opacity-60' alt='ellipse'/>
@@ -73,9 +73,9 @@ const SideBar = () => {
                 <h3 className='font-sans font-normal text-xl ml-2 decoration-white'>Placed Edflinger</h3>
             </li>
         </ul>
-        <div>
+        <div className='bottom-0 absolute'>
         <img src={SideBarBottom1} className='relative -bottom-48' alt='design'/>
-        <img src={SideBarBottom2} className='relative' alt='design2'/>
+        <img src={SideBarBottom2} className='relative bottom-0' alt='design2'/>
         </div>
       </aside>
     </>

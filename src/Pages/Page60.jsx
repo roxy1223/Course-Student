@@ -5,7 +5,7 @@ import NavSub from '../Components/NavSub'
 import CourseMain from '../Components/CourseMain'
 import PageEnd from '../Components/PageEnd'
 
-const Page57 = () => {
+const Page60 = () => {
   return (
     <>
     <header>
@@ -28,4 +28,4 @@ const Page57 = () => {
   )
 }
 
-export default Page57
+export default Page60
