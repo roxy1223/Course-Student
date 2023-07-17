@@ -1,0 +1,32 @@
+.logo{
+    width: 67.85px;
+    height: 42.407px;
+    margin-top: 21px;
+    margin-left: 70px;
+}
+.name{
+    color: #215D4F;
+    margin-left:2px;
+    margin-top:30px ;
+}
+.list-elements{
+    color: #7F7F7F;
+    font-weight: 400;
+    font-size: 24px;
+}
+.bell-icon{
+    width: 21.23px;
+    height: 26.538px;
+}
+.comments-icon{
+    width: 24.398px;
+    height: 24.398px;
+}
+.profile-icon{
+    width: 36.596px;
+    height: 36.596px;
+}
+.sec3{
+    right: 0%;
+    margin-left: 350px;
+}
