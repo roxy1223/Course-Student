@@ -37,7 +37,7 @@ const benifits = [
 
 const imageRender = (index) => {
   if (index < 5) {
-    if ((index + 1) % 2 == 0) {
+    if ((index + 1) % 2 === 0) {
       return (
         <div className="flex align-middle justify-center my-1  max-lg:hidden ">
           <img src={pathLeft} className='w-5/6' alt="path__left__arrow" />
@@ -65,7 +65,7 @@ const BenifitsofPurchase = () => {
             <div className="flex flex-col w-full lg:px-[72px] mx-auto px-10 max-lg:mt-5">
               <div
                 className={
-                  (index + 1) % 2 == 0
+                  (index + 1) % 2 === 0
                     ? 'flex lg:flex-row-reverse flex-col align-middle w-full'
                     : 'flex lg:flex-row flex-col align-middle w-full'
                 }
