@@ -9,6 +9,7 @@ import Page59 from './Pages/Page59';
 import Page60 from './Pages/Page60';
 import Page61 from './Pages/Page61';
 import Page20 from './Pages/Page20';
+import Imac211 from './Pages/Imac211';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
           <Route path='/page61' element={<Page61/>} />
           <Route path='/page19' element={<Page19/>} />
           <Route path='/page20' element={<Page20/>} />
-          <Route path='/Page18' element={<Page18 />} />
+          <Route path='/page18' element={<Page18 />} />
+          <Route path='/imac211' element={<Imac211 />} />
         </Routes>
       </BrowserRouter>
     </>
