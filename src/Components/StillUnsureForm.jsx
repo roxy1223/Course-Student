@@ -20,22 +20,20 @@ const StillUnsureForm = () => {
         </div>
         <div className='h-full flex max-lg:w-full w-1/2 max-lg:content center'>
           <div className='flex flex-col gap-5 w-11/12 max-sm:w-full max-sm:mx-0 max-sm:px-2 mx-auto bg-white rounded-3xl max-lg:px-6 lg:px-12 pt-12'>
-            <form onSubmit={(e)=>{e.preventDefault()}}>
-              <div className='flex max-sm:flex-col gap-9 w-full max-w-lg max-lg:mx-auto'>
-                <input placeholder='Full name' className={`${inputStyle}`} />
-                <input placeholder='Email address ' className={`${inputStyle}`} />
-              </div>
-              <div className='flex max-sm:flex-col gap-9 w-full max-w-lg max-lg:mx-auto'>
-                <input placeholder='Contact Number' className={`${inputStyle}`} />
-                <input placeholder='Graduation Year' className={`${inputStyle}`} />
-              </div>
-              <div className='flex w-full max-w-lg max-lg:mx-auto'>
-                <input placeholder='Describe your problem' type='text' className={`${inputStyle} w-full max-w-lg min-h-[100px]`} />
-              </div>
-              <div className='flex justify-center w-full py-5'>
-                <button className='w-9/12 max-sm:w-full p-1 h-8 rounded-md bg-slate-green font-medium text-white'>Request for counselling</button>
-              </div>
-            </form>
+            <div className='flex max-sm:flex-col gap-9 w-full max-w-lg max-lg:mx-auto'>
+              <input placeholder='Full name' className={`${inputStyle}`} />
+              <input placeholder='Email address ' className={`${inputStyle}`} />
+            </div>
+            <div className='flex max-sm:flex-col gap-9 w-full max-w-lg max-lg:mx-auto'>
+              <input placeholder='Contact Number' className={`${inputStyle}`} />
+              <input placeholder='Graduation Year' className={`${inputStyle}`} />
+            </div>
+            <div className='flex w-full max-w-lg max-lg:mx-auto'>
+              <input placeholder='Describe your problem' type='text' className={`${inputStyle} w-full max-w-lg min-h-[100px]`} />
+            </div>
+            <div className='flex justify-center w-full py-5'>
+              <button className='w-9/12 max-sm:w-full p-1 h-8 rounded-md bg-slate-green font-medium text-white'>Request for counselling</button>
+            </div>
             {/* <FormModal /> */}
           </div>
         </div>
