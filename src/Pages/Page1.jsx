@@ -11,7 +11,7 @@ const Page1 = () => {
       <header>
         <Navbar />
       </header>
-      <main className="mt-[80px] ml-[74px] mr-[66px] mb-[40px] flex h-auto justify-center">
+      <main className="mt-[80px] ml-[74px] mr-[66px] mb-[40px] flex h-auto justify-center ">
         <ContactUs />
       </main>
       <footer>
