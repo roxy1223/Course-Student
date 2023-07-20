@@ -5,8 +5,8 @@
     background-color: #215D4F;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 90%, 0 80%);
     border-radius:15px;
-    position: absolute;
-    top: 939px;
+    /* position: absolute; */
+    /* top: 939px; */
     /* left: 70px;  */
     /* width: 1300px; */
     width:95%;
@@ -172,8 +172,8 @@
      /* flex-wrap:wrap; */
      justify-content:space-between;
      gap:30px;
-     position: relative;
-     top:180px;
+     /* position: relative; */
+     /* top:180px; */
      /* background-color:#CB8461 ; */
  }
  

@@ -3,7 +3,7 @@ import "../App.css";
 
 function SelectPlanComponent() {
   return (
-    <div className='top-2700 sm:top-2600 md:top-2400 lg:top-2200 min-h-830' style={{backgroundColor:"#215D4F",width:"95%",marginTop:"10px",borderRadius:"10px",position:"absolute"}}>
+    <div className=' min-h-830' style={{backgroundColor:"#215D4F",width:"95%",marginTop:"10px",borderRadius:"10px"}}>
 
   
 

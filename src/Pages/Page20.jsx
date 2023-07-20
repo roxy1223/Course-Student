@@ -20,9 +20,11 @@ const Page20 = () => {
 
       </div>
 
+      <div className='mt-7 flex flex-col'>
       <StillUnsureForm/>
       <BenifitsofPurchase />
       <CourseGuides />
+      </div>
     </div>
   );
 };
