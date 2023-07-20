@@ -39,9 +39,9 @@ function App() {
             
         </Routes>
       </BrowserRouter>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar>
       <div className="h-screen">&nbsp;</div>
-      <Footer></Footer>
+      <Footer></Footer> */}
     </>
   );
 }
