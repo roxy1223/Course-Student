@@ -7,7 +7,8 @@ module.exports = {
       colors: {
         "raw-sienna": "#CB8461",
         "slate-green": "#215D4F",
-        "light-grey": "#969696"
+        "light-grey": "#969696",
+        "edfling-green": "#45776B"
       },
     },
   },
