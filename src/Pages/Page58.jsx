@@ -26,7 +26,7 @@ const Page57 = () => {
         <div className={`w-auto h-auto ${viewbar} md:block`}>  
         <SideBar/>
         </div>
-        <div className={`md:w-9/12 mx-2 h-auto box-border ${viewcontent}`}>
+        <div className={`md:w-9/12 mx-2 h-auto box-border ${viewcontent} md:block`}>
           <NavSub/>
           <CourseMain/>
         </div>
