@@ -88,8 +88,12 @@ function ContactUs() {
             <div className="w-[350px] h-[76px] relative">
               <span className="formName absolute">Your Name</span>
               <span className="w-[350px] h-[47px] mt-[29px] rounded-[10px] border-[1px] border-solid border-[#45776b80] absolute">
-                <span className="nameplaceholder mt-[13px] ml-[32px] mr-[144px] absolute">
-                  Enter your email address
+                <span className="messagePlaceholder mt-[13px] ml-[32px] mr-[144px] absolute">
+                  <input
+                    type="text"
+                    placeholder="Enter your email address"
+                    className="bg-[#F9F9FB]"
+                  ></input>
                 </span>
               </span>
             </div>
@@ -98,8 +102,12 @@ function ContactUs() {
             <div className="w-[350px] h-[76px] relative">
               <span className="formName absolute">Your Email Address</span>
               <span className="w-[350px] h-[47px] mt-[29px] rounded-[10px] border-[1px] border-solid border-[#45776b80] absolute">
-                <span className="nameplaceholder mt-[13px] ml-[32px] mr-[144px] absolute">
-                  Enter your email address
+                <span className="messagePlaceholder mt-[13px] ml-[32px] mr-[144px] absolute">
+                  <input
+                    type="text"
+                    placeholder="Enter your email address"
+                    className="bg-[#F9F9FB]"
+                  ></input>
                 </span>
               </span>
             </div>
@@ -109,7 +117,11 @@ function ContactUs() {
               <span className="formName absolute">Message</span>
               <span className="w-[350px] h-[181px] mt-[25px] flex items-start gap-[10px] rounded-[10px] border-[1px] border-solid border-[#45776b80] opacity-[0.5] absolute py-[13px] px-[32px]">
                 <span className="messagePlaceholder  absolute">
-                  write your message
+                  <input
+                    type="text"
+                    placeholder="write your message"
+                    className="bg-[#F9F9FB]"
+                  ></input>
                 </span>
               </span>
             </div>
