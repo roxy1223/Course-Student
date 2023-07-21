@@ -25,7 +25,7 @@ function PythonCourseComponent() {
                 <img style={{margin:"10px 0px 0px 5px",height:"101px",width:"121px"}} src={group_10339} alt='Group-10339'/>
             </div>
 
-            <div className='text-center font-bold' style={{color:"#CB8461",fontSize:"25px",lineHeight:"40px",flex:"1",position:"absolute",top:"35px",left:"35%"}}>
+            <div className='text-center font-bold mt-10' style={{color:"#CB8461",fontSize:"25px",lineHeight:"40px",flex:"1"}}>
                 <h1>Why should I Learned Python</h1>
             </div>
 
@@ -34,10 +34,10 @@ function PythonCourseComponent() {
 
         {/* points for learning python */}
 
-        <div className='mt-6' style={{color:"white",display:"flex",flexDirection:"column",flexWrap:"wrap",justifyContent:"center",alignItems:"center"}}>
+        <div className='mt-3' style={{color:"white",display:"flex",flexDirection:"column",flexWrap:"wrap",alignItems:"center"}}>
 
         
-                    <div className="flex justify-center items-center my-5 sm:my-5 md:my-5 points_to_learn_div" style={{gap:"17px"}}>
+                    <div className="flex justify-center items-center points_to_learn_div" style={{gap:"17px"}}>
                         <div>
                             <img src={trophy_icon}/>
                         </div>
@@ -51,7 +51,7 @@ function PythonCourseComponent() {
 
 
            
-                    <div className="flex justify-center items-center my-5 sm:my-5 md:my-5  points_to_learn_div" style={{gap:"17px"}}>
+                    <div className="flex justify-center items-center points_to_learn_div" style={{gap:"17px"}}>
                         <div>
                             <img src={job_icon}/>
                         </div>
@@ -67,7 +67,7 @@ function PythonCourseComponent() {
 
 
 
-                    <div className="flex items-center space-x-4 my-5 sm:my-5 md:my-5  points_to_learn_div">
+                    <div className="flex items-center space-x-4 points_to_learn_div">
                         <div>
                             <img src={molecule_icon} style={{width:"36px"}}/>
                         </div>
@@ -87,7 +87,7 @@ function PythonCourseComponent() {
         {/* why should you choose python */}
 
 
-        <div className='flex flex-col items-center justify-center mt-7' style={{flexWrap:"wrap"}}>
+        <div className='flex flex-col items-center justify-center mt-20' style={{flexWrap:"wrap"}}>
             <div>
                 <h1 style={{color:"#CB8461",fontSize:"25px",fontWeight:"600"}}>Why should You Choose Python</h1>
                 <p style={{color:"#ffffff",fontSize:"13px",textAlign:"center",margin:"10px 0px"}}>Python is world easiest and popular language</p>
@@ -135,7 +135,7 @@ function PythonCourseComponent() {
 
 
 
-    <div className='h-24'></div>
+    <div className='h-32'></div>
 
         {/* bottom logo */}
 

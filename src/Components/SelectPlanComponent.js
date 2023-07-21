@@ -3,7 +3,7 @@ import "../App.css";
 
 function SelectPlanComponent() {
   return (
-    <div className=' min-h-830' style={{backgroundColor:"#215D4F",width:"95%",marginTop:"10px",borderRadius:"10px"}}>
+    <div className='min-h-830' style={{backgroundColor:"#215D4F",width:"95%",borderRadius:"10px"}}>
 
   
 
@@ -49,12 +49,13 @@ function SelectPlanComponent() {
 
                   {/* button */}
 
-          <div className='h-6'></div>
+          <div className='h-5'></div>
 
           <div>
             <button className='my_btn'>Get Started</button>
           </div>
 
+          
 
 
         </div>
