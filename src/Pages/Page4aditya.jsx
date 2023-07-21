@@ -8,9 +8,6 @@ import Button from "../Components/Button_page4"
 function Page4aditya() {
     return (
         <>
-          <header>
-            <Navbar />
-          </header>
           <main className="font-['Poppins']">
             <SearchBar />
             <div className="container  ">
@@ -33,9 +30,6 @@ function Page4aditya() {
               <Button />
             </div>
           </main>
-          <footer>
-            <PageEnd />
-          </footer>
         </>
       );
 }

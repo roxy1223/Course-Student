@@ -7,9 +7,6 @@ import SearchBar from "../Components/SearchBar";
 const Page4 = () => {
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
       <main class="font-['Poppins']">
         <SearchBar/>
         <Grid title="Personal Developement Mentor"/>
@@ -17,9 +14,6 @@ const Page4 = () => {
         <Grid title="Music Mentor"/>
         <Grid title="Academic Mentor"/>
       </main>
-      <footer>
-        <PageEnd />
-      </footer>
     </>
   );
 };
