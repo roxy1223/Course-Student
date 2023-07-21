@@ -15,10 +15,11 @@ import "../CSS/SideBar.css";
 const SideBarCourse = () => {
   return (
     <>
-      <aside
-        className="w-[310px] h-[1500px] relative"
+      <div
+        className="w-full h-[740px] md:h-[1500px] relative flex flex-col  items-center md:items-stretch overflow-hidden"
         style={{ background: "#215D4F" }}
       >
+        {/* sidebar heading */}
         <div className="flex pt-5 ml-[40px]">
           <img
             src={Ellipse}
@@ -35,6 +36,7 @@ const SideBarCourse = () => {
           </h1>
         </div>
 
+        {/* list contents */}
         <ul className="pl-10 py-4 mt h-[486px] mt-[90px]">
           <li className="flex mx-2 my-4 ">
             <img src={ContactCard} alt="Courses" />
@@ -85,19 +87,23 @@ const SideBarCourse = () => {
             </h3>
           </li>
         </ul>
-        <div className="bottom-0 absolute">
+
+        {/* bottom image */}
+        <div className="hidden md:block w-[600px] bottom-0 absolute">
           <img
             src={SideBarBottom1}
-            className="relative -bottom-48"
+            className="relative -bottom-[14rem]"
             alt="design"
+            width={328.2}
           />
           <img
             src={SideBarBottom2}
             className="relative bottom-0"
             alt="design2"
+            width={328.2}
           />
         </div>
-      </aside>
+      </div>
     </>
   );
 };

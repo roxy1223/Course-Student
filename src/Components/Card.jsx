@@ -4,13 +4,13 @@ import person2 from "../images/page4_2/krishna.png";
 
 const CardComponent = ({ heading }) => {
   return (
-
+    
     <div className="container ">
-      <h2 className="text-center" style={{ marginBottom:"22px",fontSize:"34px" , color:"#45776B" }}>{heading}</h2>
+      <h2 className="text-center" style={{ marginBottom:"22px",fontSize:"30px" , color:"#45776B" }}>{heading}</h2>
       <div className="row "style={{ width:"100%" }}>
         
         
-        <div className="col "> 
+        <div className="col" style={{padding:"1.5rem"}}> 
           
           <div className="row g-0">
             <div className="col-md-4">
@@ -47,7 +47,7 @@ const CardComponent = ({ heading }) => {
         </div>
         
 
-        <div className="col " style={{ marginBottom:"22px" }}>  
+        <div className="col " style={{ padding:"1.5rem"}}>  
             
                      
           <div className="row g-0">
@@ -87,7 +87,7 @@ const CardComponent = ({ heading }) => {
 
         <div className="w-100" ></div>
 
-        <div className="col ">
+        <div className="col " style={{padding:"1.5rem"}}>
             
                       
           <div className="row g-0">
@@ -125,7 +125,7 @@ const CardComponent = ({ heading }) => {
         
         </div>
 
-        <div className="col ">
+        <div className="col " style={{padding:"1.5rem"}}>
             
                       
           <div className="row g-0">
