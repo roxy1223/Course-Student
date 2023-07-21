@@ -14,12 +14,11 @@ import Page68 from "./Pages/Page68";
 import Page69 from "./Pages/Page69";
 import Page1 from "./Pages/Page1";
 import Page4 from "./Pages/Page4";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 import Page65 from "./Pages/Page65";
 import Page66 from "./Pages/Page66";
 import Page4aditya from "./Pages/Page4aditya";
-
-
-
 
 
 function App() {
@@ -49,6 +48,9 @@ function App() {
             
         </Routes>
       </BrowserRouter>
+      {/* <Navbar></Navbar>
+      <div className="h-screen">&nbsp;</div>
+      <Footer></Footer> */}
     </>
   );
 }
