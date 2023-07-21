@@ -8,9 +8,6 @@ import PageEnd from '../Components/PageEnd'
 const Page57 = () => {
   return (
     <>
-    <header>
-      <Navbar/> 
-    </header>
     <main className='ml-16 my-8 flex h-auto justify-center'>
         <div className='w-1/6 h-auto'>
         <SideBar/>
@@ -20,10 +17,6 @@ const Page57 = () => {
           <CourseMain/>
         </div>
     </main>
-    <footer>
-      <PageEnd/>
-    </footer>
-      
     </>
   )
 }
