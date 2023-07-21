@@ -13,14 +13,13 @@ import Imac211 from './Pages/Imac211';
 import Page68 from "./Pages/Page68";
 import Page69 from "./Pages/Page69";
 import Page1 from "./Pages/Page1";
-import Login from "./Pages/Login/index";
-import Signup from "./Pages/Signup/index";
 
 
 function App() {
   return (
     <>
       <BrowserRouter>
+      <Navbar/>
         <Routes>
           <Route path="/page57" element={<Page57 />} />
           <Route path="/page58" element={<Page58 />} />
@@ -34,10 +33,9 @@ function App() {
           <Route path="/page68" element={<Page68 />} />
           <Route path="/page69" element={<Page69 />} />
           <Route path="/page1" element={<Page1 />} />
-          <Route path="/page7" element={<Login />} />
-          <Route path="/page9" element={<Signup />} />
-          
+            
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   );
