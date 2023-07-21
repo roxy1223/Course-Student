@@ -1,14 +1,14 @@
 import React from 'react'
-import Like from '../Utils/Images/Like.svg'
-import Comment from '../Utils/Images/Comment.svg'
-import Dislike from '../Utils/Images/Dislike.svg'
-import ProfilePic from '../Utils/Images/ProfilePic.png'
+import Like from '../images/page57-61/Like.svg'
+import Comment from '../images/page57-61/Comment.svg'
+import Dislike from '../images/page57-61/Dislike.svg'
+import ProfilePic from '../images/page57-61/ProfilePic.png'
 
 const CourseMain = () => {
   return (
     <main className='h-auto'>
       <div className='w-full h-full'>  
-        <iframe className='w-full my-4' style={{height:'550px'}}  src="https://www.youtube.com/embed/x6f13UXWeQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className='w-full my-4 md:h-96 h-80' min-h-fit  src="https://www.youtube.com/embed/x6f13UXWeQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <p className='mt-8'>
         <h1 className='text-3xl font-sans font-bold my-2'>

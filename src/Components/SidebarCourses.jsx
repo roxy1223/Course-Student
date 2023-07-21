@@ -1,15 +1,15 @@
 import React from "react";
-import Ellipse from "../Utils/Images/Ellipse217.svg";
-import ContactCard from "../Utils/Images/ContactCard.svg";
+import Ellipse from "../images/page57-61/Ellipse217.svg";
+import ContactCard from "../images/page57-61/ContactCard.svg";
 import Bookmarks from "../images/page68/Bookmarks.svg";
-import LeaderBoard from "../Utils/Images/LeaderBoard.svg";
-import Placed from "../Utils/Images/Placed.svg";
-import Doubts from "../Utils/Images/Doubts.svg";
-import Events from "../Utils/Images/Events.svg";
-import Notes from "../Utils/Images/Notes.svg";
-import Certificate from "../Utils/Images/Certificate.svg";
-import SideBarBottom1 from "../Utils/Images/SideBarBottom1.png";
-import SideBarBottom2 from "../Utils/Images/SideBarBottom2.png";
+import LeaderBoard from "../images/page57-61/LeaderBoard.svg";
+import Placed from "../images/page57-61/Placed.svg";
+import Doubts from "../images/page57-61/Doubts.svg";
+import Events from "../images/page57-61/Events.svg";
+import Notes from "../images/page57-61/Notes.svg";
+import Certificate from "../images/page57-61/Certificate.svg";
+import SideBarBottom1 from "../images/page57-61/SideBarBottom1.png";
+import SideBarBottom2 from "../images/page57-61/SideBarBottom2.png";
 import "../CSS/SideBar.css";
 
 const SideBarCourse = () => {

@@ -1,16 +1,16 @@
 import React from "react";
-import Ellipse from "../Utils/Images/Ellipse217.svg";
-import ContactCard from "../Utils/Images/ContactCard.svg";
-import Arrow from "../Utils/Images/Arrow.svg";
-import LeaderBoard from "../Utils/Images/LeaderBoard.svg";
-import Pause from "../Utils/Images/Pause.svg";
-import Placed from "../Utils/Images/Placed.svg";
-import Doubts from "../Utils/Images/Doubts.svg";
-import Events from "../Utils/Images/Events.svg";
-import Notes from "../Utils/Images/Notes.svg";
-import Certificate from "../Utils/Images/Certificate.svg";
-import SideBarBottom1 from "../Utils/Images/SideBarBottom1.png";
-import SideBarBottom2 from "../Utils/Images/SideBarBottom2.png";
+import Ellipse from "../images/page57-61/Ellipse217.svg";
+import ContactCard from "../images/page57-61/ContactCard.svg";
+import Arrow from "../images/page57-61/Arrow.svg";
+import LeaderBoard from "../images/page57-61/LeaderBoard.svg";
+import Pause from "../images/page57-61/Pause.svg";
+import Placed from "../images/page57-61/Placed.svg";
+import Doubts from "../images/page57-61/Doubts.svg";
+import Events from "../images/page57-61/Events.svg";
+import Notes from "../images/page57-61/Notes.svg";
+import Certificate from "../images/page57-61/Certificate.svg";
+import SideBarBottom1 from "../images/page57-61/SideBarBottom1.png";
+import SideBarBottom2 from "../images/page57-61/SideBarBottom2.png";
 import "../CSS/SideBar.css";
 
 const SideBar = () => {
@@ -51,7 +51,7 @@ const SideBar = () => {
             Graphic Design Course
           </h2>
         </div>
-        <ul className="pl-10 pt-2">
+        <ul className="pl-10 pt-1">
           <li className="w-2/3 bg-white h-22 rounded text-center decoration-green font-sans font-normal mx-2 my-4">
             Lesson - 1
           </li>
@@ -86,14 +86,14 @@ const SideBar = () => {
             Lesson - 11
           </li>
         </ul>
-        <ul className="pl-10 py-4">
+        <ul className="pl-10 py-0">
           <li className="flex mx-2 my-4">
             <img src={LeaderBoard} alt="LeaderBoard" />
             <h3 className="font-sans font-normal text-xl ml-2 decoration-white">
               Leaderboard
             </h3>
           </li>
-          <li className="flex mx-2 my-6">
+          <li className="flex mx-2 my-3">
             <img src={Pause} alt="pause" />
             <img src={Pause} alt="pause" className="m-1" />
             <h3 className="font-sans font-normal text-xl ml-2 decoration-white">
