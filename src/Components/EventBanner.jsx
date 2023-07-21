@@ -12,7 +12,7 @@ function EventBanner() {
   return (
     <>
       {/* Event Banner */}
-      <div className="w-[1042px] h-[202px] box-border ml-[35px] gradient relative ">
+      <div className="w-[438px]  md:w-[1042px] h-[202px] box-border ml-0 md:ml-[35px] gradient relative ">
         <span className="eventFont mt-[48px] ml-[44px] absolute">Events</span>
         <span className=" EventSubtitle mt-[115px] ml-[44px] absolute">
           Attend latest events to know about trends and technology
@@ -21,13 +21,13 @@ function EventBanner() {
           src={undrawSchedule}
           width={156}
           height={188}
-          className="absolute mt-[50px] ml-[867px] mr-[87px]"
+          className="hidden md:block absolute mt-[50px] ml-[867px] mr-[87px]"
         ></img>
       </div>
 
       {/* Event Headline */}
       <div className="inline-flex flex-col items-center gap-[29px] ">
-        <div className="flex items-center justify-center gap-[19px] ml-[370px] mt-[26px]">
+        <div className="flex items-center justify-center gap-[19px] md:ml-[370px] mt-[26px]">
           <img
             src={lineleft}
             width={116.039}
@@ -45,9 +45,9 @@ function EventBanner() {
       </div>
 
       {/*  Event Content*/}
-      <div className="inline-flex flex-col items-center gap-[29px] ml-[35px] mt-[29px]">
+      <div className="md:inline-flex flex-col items-center md:gap-[29px] md:ml-[35px] mt-[29px]">
         {/* EVENT- 1 & 2 */}
-        <div className="flex items-start gap-[160px]">
+        <div className="flex flex-col md:flex md:flex-row items-start gap-[20px] md:gap-[160px]">
           <div className="w-[440px] h-[523px] rounded-[15px] border-[4px] border-solid border-[#EEE] bg-[#FFF]">
             <div className="inline-flex flex-col items-center gap-[18px]">
               <div className="flex flex-col items-center gap-[16px]">
@@ -139,7 +139,7 @@ function EventBanner() {
         </div>
 
         {/* EVENT- 3 & 4 */}
-        <div className="flex items-start gap-[160px]">
+        <div className="flex flex-col md:flex mt-[20px] md:mt-0 md:flex-row items-start gap-[20px] md:gap-[160px]">
           <div className="w-[440px] h-[523px] rounded-[15px] border-[4px] border-solid border-[#EEE] bg-[#FFF]">
             <div className="inline-flex flex-col items-center gap-[18px]">
               <div className="flex flex-col items-center gap-[16px]">
@@ -231,7 +231,7 @@ function EventBanner() {
         </div>
 
         {/* View All Events */}
-        <div className="flex items-start gap-[5.735px] py-[8.603px] px-[75.131px] rounded-[8.603px] bg-[#215D4F]">
+        <div className=" flex mt-[20px] md:mt-0 items-center justify-center  md:items-start gap-[5.735px] py-[8.603px] px-[75.131px] rounded-[8.603px] bg-[#215D4F]">
           <button className="viewAllEvents">View all Events</button>
         </div>
       </div>
