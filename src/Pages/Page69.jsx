@@ -7,9 +7,6 @@ import EventBanner from "../Components/EventBanner";
 const Page69 = () => {
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
       <main className="ml-16 my-8 flex h-auto justify-center">
         <div className="w-1/6 h-auto">
           <SideBarCourse />
@@ -18,9 +15,6 @@ const Page69 = () => {
           <EventBanner />
         </div>
       </main>
-      <footer>
-        <PageEnd />
-      </footer>
     </>
   );
 };

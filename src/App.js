@@ -25,6 +25,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      <Navbar/>
         <Routes>
           <Route path="/page57" element={<Page57 />} />
           <Route path="/page58" element={<Page58 />} />
@@ -41,16 +42,10 @@ function App() {
           <Route path="/page4" element={<Page4 />} />
           <Route path="/page65" element={<Page65 />} />
           <Route path="/page66" element={<Page66 />} />
-          <Route path="/page4aditya" element={<Page4aditya/>}/>
-          
-          
-
-            
+          <Route path="/page4aditya" element={<Page4aditya/>}/>        
         </Routes>
+        <Footer/>
       </BrowserRouter>
-      {/* <Navbar></Navbar>
-      <div className="h-screen">&nbsp;</div>
-      <Footer></Footer> */}
     </>
   );
 }
