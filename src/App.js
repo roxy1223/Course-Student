@@ -13,6 +13,10 @@ import Imac211 from './Pages/Imac211';
 import Page68 from "./Pages/Page68";
 import Page69 from "./Pages/Page69";
 import Page1 from "./Pages/Page1";
+import Login from "./Pages/Login/index";
+import Signup from "./Pages/Signup/index";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 
 function App() {
@@ -33,6 +37,8 @@ function App() {
           <Route path="/page68" element={<Page68 />} />
           <Route path="/page69" element={<Page69 />} />
           <Route path="/page1" element={<Page1 />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
             
         </Routes>
         <Footer/>
