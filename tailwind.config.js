@@ -29,6 +29,9 @@ module.exports = {
         2400: "2400px",
         2700: "2700px",
       },
+      fontFamily:{
+        poppins:"'Poppins', sans-serif",
+      }
     },
   },
   plugins: [require("@tailwindcss/line-clamp")],
