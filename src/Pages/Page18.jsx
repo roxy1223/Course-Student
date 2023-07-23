@@ -13,8 +13,14 @@ import Pic11 from "../images/page18/Pic11.png";
 import Pic12 from "../images/page18/Pic12.png";
 import CourseCategoryPage18 from "../Components/CourseCategoryPage18";
 import CurrentRolesPage18 from "../Components/CurrentRolesPage18";
-import TrendingCoursesPage18 from "../Components/TrendingCoursesPage18";
 import TestimonialPage18 from "../Components/TestimonialPage18";
+import lArrow from "../images/page18/left arrow.png";
+import rArrow from "../images/page18/right arrow.png";
+import py from "../images/page18/python.jpg";
+import cpp from "../images/page18/CPP.png";
+import uiux from "../images/page18/UIUX.png";
+import desgin from "../images/page18/Desgin.png";
+import Card from "../Components/TrendingCourses";
 
 export default function Page18() {
   return (
@@ -115,17 +121,37 @@ export default function Page18() {
               Best and Popular Courses of 2023 is here for you
             </h3>
           </div>
-          <TrendingCoursesPage18 />
+          
+          {/* Courses cards */}
+          <div className="flex justify-center items-center">
+            <a href="#" className="-ml-36 pr-12"><img className="h-12 w-32" src={lArrow} alt="left arrow" /></a>
+            <div className="flex overflow-x-hidden">
+              <Card text="Learn Python : The complete Journey Beginner to Pro 2022" img={py}/>
+              <Card text="Learn Design : The complete Journey Beginner to Pro 2022" img={desgin}/>
+              <Card text="Learn UI/UX : The complete Journey Beginner to Pro 2022" img={uiux}/>
+              <Card text="Learn C++ : The complete Journey Beginner to Pro 2022" img={cpp}/>
+              <Card text="Learn C++ : The complete Journey Beginner to Pro 2022" img={cpp}/>
+              <Card text="Learn C++ : The complete Journey Beginner to Pro 2022" img={cpp}/>
+            </div>
+            <a href="#" className="-mr-36 pl-12"><img className="h-12 w-32" src={rArrow} alt="right arrow" /></a>
+          </div>
+
+
+
         </div>
         <div className="mt-8 md:mt-10 flex flex-col justify-center items-center">
           <h1 className=" text-5xl text-green-700">Testimonials</h1>
         </div>
-        <div className="flex space-x-2 md:space-x-4 mt-8 md:mt-10">
-          <TestimonialPage18 />
-          <TestimonialPage18 />
-          <TestimonialPage18 />
+        <div className="flex justify-center items-center mb-10">
+          <a href="#" className="-ml-36 pr-12"><img className="h-10 w-18" src={lArrow} alt="left arrow" /></a>
+          <div className="flex space-x-2 md:space-x-4 mt-8 md:mt-10">
+            <TestimonialPage18 />
+            <TestimonialPage18 />
+            <TestimonialPage18 />
+          </div>
+          <a href="#" className="-mr-36 pl-12"><img className="h-10 w-18" src={rArrow} alt="right arrow" /></a>
         </div>
-        <div className="mt-44">gap</div>
+        {/* <div className="mt-44">gap</div> */}
       </div>
     </div>
   );

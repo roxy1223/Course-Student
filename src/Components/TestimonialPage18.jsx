@@ -1,11 +1,12 @@
 import React from "react";
+import person from "../images/page18/person profile.png";
 
 function TestimonialPage18() {
   return (
-    <div className=" flex p-2 bg-slate-200 h-64 md:h-72 w-64 md:w-72 rounded-md drop-shadow-md hover:drop-shadow-lg transition duration-100 ease-in cursor-pointer">
+    <div className=" flex p-2 mx-3 bg-slate-200 h-64 md:h-72 w-64 md:w-72 rounded-md drop-shadow-md hover:drop-shadow-lg transition duration-100 ease-in cursor-pointer shadow justify-center">
       <div className="flex flex-col justify-evenly">
         <div className="flex p-2 md:p-4 items-center space-x-4 md:space-x-5">
-          <img className="w-6 h-6 rounded-full" src="" alt="user Img" />
+          <img className="w-6 h-6 rounded-full" src={person} alt="user Img" />
           <div className="flex flex-col">
             <h2>Sandeep Singh</h2>
             <p className="text-sm text-gray-500">IIT Guhwati</p>
