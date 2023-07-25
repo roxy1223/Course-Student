@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import Page18 from "./Pages/Page18";
 import Page57 from "./Pages/Page57";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Page19 from "./Pages/Page19";
@@ -18,6 +17,7 @@ import Login from "./Pages/Login/index";
 import Signup from "./Pages/Signup/index";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import Page18 from "./Pages/Page18";
 
 
 function App() {

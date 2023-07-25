@@ -1,12 +1,12 @@
 import React from "react";
 
-function CurrentRolesPage18({ title, position, button }) {
+function CurrentRoles({ title, position, button }) {
   if (position) {
     return (
-      <div className="flex items-center justify-center space-x-2 md:space-x-4 mt-2">
+      <div className="flex max-w-5xl items-center justify-center space-x-2 md:space-x-4 mt-2">
         <img src="" alt="left" />
         <div className="flex flex-col space-y-2 md:space-y-4">
-          <h1 className="text-5xl text-green-700">{title}</h1>
+          <h1 className="text-3xl text-green-700">{title}</h1>
           <p className="font-medium text-sm text-gray-500">
             Instructor from around the world teach millions of students on
             Edfling course.We provide the tools and skills to teach what you
@@ -27,9 +27,9 @@ function CurrentRolesPage18({ title, position, button }) {
     );
   } else {
     return (
-      <div className="flex items-center justify-center space-x-2 md:space-x-4 mt-2">
+      <div className="flex max-w-5xl items-center justify-center space-x-2 md:space-x-4 mt-2">
         <div className="flex flex-col space-y-2 md:space-y-4">
-          <h1 className="text-5xl text-green-700">{title}</h1>
+          <h1 className="text-3xl text-green-700">{title}</h1>
           <p className="font-medium text-sm text-gray-500">
             Instructor from around the world teach millions of students on
             Edfling course.We provide the tools and skills to teach what you
@@ -50,4 +50,4 @@ function CurrentRolesPage18({ title, position, button }) {
   }
 }
 
-export default CurrentRolesPage18;
+export default CurrentRoles;
