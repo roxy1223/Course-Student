@@ -1,25 +1,20 @@
 import React from "react";
 
-function TestimonialPage18() {
+function TestimonialCard({ title, description, img, subtitle }) {
   return (
-    <div className=" flex p-2 bg-slate-200 h-64 md:h-72 w-64 md:w-72 rounded-md drop-shadow-md hover:drop-shadow-lg transition duration-100 ease-in cursor-pointer">
-      <div className="flex flex-col justify-evenly">
+    <div className=" flex p-2 mx-3 min-w-[180px] md:min-w-[220px] lg:min-w-[280px]  bg-slate-200 h-64 md:h-80 sm:w-80 rounded-md drop-shadow-md hover:drop-shadow-lg transition duration-100 ease-in cursor-pointer shadow justify-center">
+      <div className="flex flex-col justify-evenly ">
         <div className="flex p-2 md:p-4 items-center space-x-4 md:space-x-5">
-          <img className="w-6 h-6 rounded-full" src="" alt="user Img" />
+          <img className="w-6 h-6 rounded-full" src={img} alt="user Img" />
           <div className="flex flex-col">
-            <h2>Sandeep Singh</h2>
-            <p className="text-sm text-gray-500">IIT Guhwati</p>
+            <h2>{title}</h2>
+            <p className="text-sm text-gray-500">{subtitle}</p>
           </div>
         </div>
         <p className="text-sm font-normal text-gray-800 line-clamp-6 mb-4 md:mb-5">
-          {`"Edfling course is a good and advanced platform and it provide best
-          mentor and best material and the best feature of this platform it
-          provide the quick doubt support and weekly doubt sessions to solve
-          your query and you will get good and practical knowledge in easy way.
-          Edfling course is a good and advanced platform and it provide best
-          mentor and best material."`}
+          {description}
         </p>
-        <div className=''>
+        <div className="">
           <button className="flex text-green-700 text-sm font-normal p-2 md:p-3 border border-gray-500/40 rounded-md hover:animate-pulse ">
             Read Full review
             <svg
@@ -43,4 +38,4 @@ function TestimonialPage18() {
   );
 }
 
-export default TestimonialPage18;
+export default TestimonialCard;

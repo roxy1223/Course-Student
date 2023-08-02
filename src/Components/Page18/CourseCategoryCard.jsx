@@ -1,6 +1,6 @@
 import React from "react";
 
-function CourseCategoryPage18({ text , pic}) {
+function CourseCategoryCard({ text , pic}) {
   return (
     <div className='cursor-pointer hover:scale-110 transition duration-200 ease-in'>
       <img className="" src={pic} />
@@ -9,4 +9,4 @@ function CourseCategoryPage18({ text , pic}) {
   );
 }
 
-export default CourseCategoryPage18;
+export default CourseCategoryCard;

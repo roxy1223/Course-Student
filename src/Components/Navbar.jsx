@@ -3,7 +3,7 @@ import { useState } from "react";
 import "../CSS/Navbar.css";
 import logo from "../images/navbar/logo.png";
 import { Menu, X } from "lucide-react";
-import profile from "../Utils/Images/Ellipse 215.png";
+import profile from "../images/page57-61/Ellipse 215.png";
 const Navbar = () => {
   const [act, setAct] = useState("Home");
 
@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="navbar px-5 sticky top-0 w-full  items-center justify-between pt-2 z-50 flex flex-wrap bg-white">
+      <div className="navbar px-5 sticky top-0 w-full  items-center justify-between pt-2 z-50 flex flex-wrap bg-white shadow-md">
         {/* left portion of navbar  */}
         <div className="left border-1  w-auto md:w-1/5 ">
           <img src={logo} alt="logo" className="h-9 hover:cursor-pointer"></img>
@@ -146,7 +146,7 @@ const Navbar = () => {
 
         {/* for screen smaller than 768px */}
         <div className="flex flex-col md:hidden">
-          <button onClick={togglenavbar} className="">
+          <button onClick={togglenavbar} className=""> 
             {!isopen ? <X /> : <Menu />}
           </button>
         </div>

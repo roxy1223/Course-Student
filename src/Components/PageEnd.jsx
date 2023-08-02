@@ -1,10 +1,10 @@
 import React from 'react'
-import Group18 from '../Utils/Images/Group 18.svg'
-import Twitter from '../Utils/Images/Twitter.svg'
-import Telegram from '../Utils/Images/Telegram.svg'
-import Meta from '../Utils/Images/Meta.svg'
-import Facebook from '../Utils/Images/Facebook.svg'
-import Linkedin from '../Utils/Images/Linkedin.svg'
+import Group18 from '../images/page57-61/Group 18.svg'
+import Twitter from '../images/page57-61/Twitter.svg'
+import Telegram from '../images/page57-61/Telegram.svg'
+import Meta from '../images/page57-61/Meta.svg'
+import Facebook from '../images/page57-61/Facebook.svg'
+import Linkedin from '../images/page57-61/Linkedin.svg'
 
 const PageEnd = () => {
   return (

@@ -9,7 +9,7 @@ function LearnPythonComponent() {
   return (
 
     <>
-        <div className='learn_python_container md:min-h-830 lg:min-h-600'>
+        <div className='flex flex-row justify-around flex-wrap-reverse sm:flex-col-reverse md:min-h-830 lg:min-h-600 learn_python_container'>
 
 
             {/* left side content */}
@@ -132,7 +132,7 @@ function LearnPythonComponent() {
 
             <div style={{flex:"1",marginTop:"25px"}}>
             
-                <LearnPythonMainPage style={{maxHeight:"500px",maxWidth:"90%"}}/>
+                <LearnPythonMainPage className='max-w-screen-sm:h-20 h-96 md:w-11/12 lg:w-full lg:h-5/6' style={{marginLeft:"10px"}}/>
             
             </div>
 

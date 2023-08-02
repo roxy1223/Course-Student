@@ -169,10 +169,11 @@
  .learn_python_container{
      /* min-height:600px; */
      width:95%;
-     display:flex;
+     /* display:flex; */
      /* flex-wrap:wrap; */
-     justify-content:space-between;
+     /* justify-content:space-between; */
      gap:30px;
+     margin-top: 7%;
      /* position: relative; */
      /* top:180px; */
      /* background-color:#CB8461 ; */
