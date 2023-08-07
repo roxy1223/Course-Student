@@ -97,7 +97,7 @@ function Otp() {
                         <Link style={{ textDecoration: 'none' }} to="/otp">Didn't receive otp ? <a href="">Resend otp</a></Link>
                     </span>
                     <span className={styles.text_span2}>
-                        <Link style={{ textDecoration: 'none' }} to="/otp">An OTP has been sent to your registered Email address or Phone number, please verify it.</Link>
+                        <Link to="/otp">An OTP has been sent to your registered Email address or Phone number, please verify it.</Link>
                     </span>
                 </div>
             </div>
