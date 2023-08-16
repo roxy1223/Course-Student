@@ -18,6 +18,7 @@ import Signup from "./Pages/Signup/index";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Page18 from "./Pages/Page18";
+import Otp from "./Pages/Otp/index";
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
           <Route path="/page27" element={<Page26_27 type={2}/>} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/otp" element={<Otp />} />
             
         </Routes>
         <Footer/>
