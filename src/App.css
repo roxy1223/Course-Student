@@ -1,10 +1,14 @@
-
+/* minHeight:"850px", */
 
 .my_container{  
     overflow-x:hidden;
     background-color: #215D4F;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 90%, 0 80%);
     border-radius:15px;
+    /* position: absolute; */
+    /* top: 939px; */
+    /* left: 70px;  */
+    /* width: 1300px; */
     width:95%;
     margin-top: 20px;    
  }
