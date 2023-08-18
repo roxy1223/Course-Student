@@ -19,6 +19,7 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Page18 from "./Pages/Page18";
 import Otp from "./Pages/Otp/index";
+import Leaderboard from "./Pages/Leaderboard/index";
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/otp" element={<Otp />} />
+          <Route path="/leaderboard" element={<Leaderboard />} />
             
         </Routes>
         <Footer/>
